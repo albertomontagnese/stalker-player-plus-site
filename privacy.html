@@ -26,10 +26,11 @@ provider. The app does not provide, sell, host, or bundle TV channels, playlists
 or media content.</p>
 
 <h2>Data you enter</h2>
-<p>You may enter a portal URL, username, password, nickname, and device ID so
+<p>You may enter a portal URL, username, password, MAC address, nickname, and device ID so
 the app can connect to your IPTV provider. This information is stored locally on
-your device and is used only to connect to the provider you choose. We do not
-operate your IPTV provider and we do not receive your portal credentials.</p>
+your device and is used to connect to the provider you choose. Portal URLs and
+MAC addresses may also be included in diagnostic analytics as described below.
+Saved passwords are not sent to us. We do not operate your IPTV provider.</p>
 
 <h2>Usage analytics</h2>
 <p>The app may collect limited usage analytics to help us understand whether the
@@ -39,10 +40,12 @@ platform, an anonymous install identifier, session identifier, broad event names
 such as app open, portal connection success or failure, playback start or error,
 favorite changes, region filter changes, and search query length buckets.</p>
 
-<p>Analytics events may include the provider or playlist URL you entered so we
+<p>Analytics events may include the provider or playlist URL and MAC address you entered so we
 can understand provider compatibility and diagnose failed portal or playlist
 loads. Before sending this value, the app redacts URL username/password fields
 and common password query parameters such as password, pass, pwd, and passwd.
+MAC addresses may identify a device or provider account and are used only for
+connection diagnostics; we do not use them to access or watch provider content.
 Analytics events do not include your saved portal password, channel names,
 search text, viewing history, or the media you watch.</p>
 
