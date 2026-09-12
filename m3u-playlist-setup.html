@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>How to Add an M3U Playlist on Apple TV | SuperPlayer</title>
+  <meta name="description" content="Add a remote M3U or M3U8 playlist URL to SuperPlayer on Apple TV, iPhone, iPad, or Mac and troubleshoot common playlist errors.">
+  <link rel="canonical" href="https://albertomontagnese.github.io/stalker-player-plus-site/m3u-playlist-setup.html">
+  <link rel="icon" href="assets/app-icon.png"><link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header"><a class="brand" href="index.html"><img src="assets/app-icon.png" alt="" width="40" height="40"><span>SuperPlayer</span></a><nav><a href="index.html#formats">Formats</a><a href="index.html#guides">Setup guides</a><a href="support.html">Support</a></nav></header>
+  <main class="article-shell">
+    <p class="eyebrow">Setup guide</p>
+    <h1>Add an M3U playlist URL</h1>
+    <p class="lede">Connect a remote M3U or M3U8 playlist supplied by your provider and browse its live channels in SuperPlayer.</p>
+    <div class="notice warning"><strong>Before you begin:</strong> SuperPlayer contains no channels. You are responsible for having permission to access every source in your playlist.</div>
+    <h2>What you need</h2>
+    <ul><li>A complete remote playlist URL beginning with <code>http://</code> or <code>https://</code>.</li><li>An active provider account if the URL includes credentials.</li><li>A network connection that can reach the playlist host.</li></ul>
+    <h2>Setup steps</h2>
+    <ol><li>Open SuperPlayer and choose <strong>Add Provider</strong>.</li><li>Select <strong>M3U playlist</strong>.</li><li>Paste or enter the complete playlist URL.</li><li>Name the provider so it is easy to recognize.</li><li>Save and wait for SuperPlayer to parse and organize the channels.</li></ol>
+    <h2>If the playlist does not load</h2>
+    <h3>Invalid or empty playlist</h3>
+    <p>Open the URL in a browser or ask the provider to confirm that it returns M3U text beginning with <code>#EXTM3U</code>. A login page, expired link, or empty response is not a playable playlist.</p>
+    <h3>Download timed out</h3>
+    <p>Large lists and slow servers can take longer. Try again on a stable connection. If the host cannot be reached elsewhere, the provider needs to restore or replace the URL.</p>
+    <h3>Some channels do not play</h3>
+    <p>That usually means those stream entries are offline, geo-restricted, or encoded in a format unavailable on the device. Compare multiple channels before reporting a player-wide issue.</p>
+    <div class="notice">Need support? Email <a href="mailto:support@infoalerts.online?subject=M3U%20setup%20help">support@infoalerts.online</a> with your device, app version, playlist domain, and exact error. Do not send embedded credentials.</div>
+    <nav class="article-nav"><a href="stalker-mac-setup.html">Stalker / MAC setup</a><a href="xtream-codes-setup.html">Xtream Codes setup</a><a href="https://apps.apple.com/app/id6786057037">View SuperPlayer on the App Store</a></nav>
+  </main>
+</body>
+</html>

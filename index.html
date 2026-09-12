@@ -2,36 +2,85 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>SuperPlayer IPTV Stalker STB</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SuperPlayer: Xtream, M3U &amp; Stalker Player for Apple TV</title>
+  <meta name="description" content="SuperPlayer is a native IPTV player for Apple TV, iPhone, iPad, and Mac. Connect your own Xtream Codes, M3U playlist, or Stalker portal with MAC address.">
+  <link rel="canonical" href="https://albertomontagnese.github.io/stalker-player-plus-site/">
+  <link rel="icon" href="assets/app-icon.png">
   <link rel="stylesheet" href="style.css">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="SuperPlayer for Apple TV">
+  <meta property="og:description" content="Your Xtream, M3U, and Stalker playlists in a fast, native Apple player.">
+  <meta property="og:url" content="https://albertomontagnese.github.io/stalker-player-plus-site/">
+  <meta property="og:image" content="https://albertomontagnese.github.io/stalker-player-plus-site/assets/feature-graphic.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "SuperPlayer",
+    "operatingSystem": "iOS, iPadOS, macOS, tvOS",
+    "applicationCategory": "MultimediaApplication",
+    "description": "A native player for user-provided Xtream Codes, M3U playlists, and Stalker portals.",
+    "url": "https://albertomontagnese.github.io/stalker-player-plus-site/",
+    "downloadUrl": "https://apps.apple.com/app/id6786057037",
+    "image": "https://albertomontagnese.github.io/stalker-player-plus-site/assets/app-icon.png",
+    "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}
+  }
+  </script>
 </head>
 <body>
-  <div class="container">
-    <header>
-      <h1><a href="index.html" style="color:inherit;text-decoration:none">SuperPlayer IPTV Stalker STB</a></h1>
-      <nav>
-        <a href="privacy.html">Privacy</a>
-        <a href="support.html">Support</a>
-        <a href="terms.html">Terms</a>
-      </nav>
-    </header>
-    <main>
-<h1 class="title">SuperPlayer IPTV Stalker STB</h1>
-<p class="lede">IPTV M3U & Stalker Player</p>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="SuperPlayer home"><img src="assets/app-icon.png" alt="" width="40" height="40"><span>SuperPlayer</span></a>
+    <nav aria-label="Primary navigation"><a href="#formats">Formats</a><a href="#guides">Setup guides</a><a href="support.html">Support</a></nav>
+  </header>
 
-<div class="card">
-  <p><strong>Need help?</strong> See <a href="support.html">support</a> or
-     email <a href="mailto:support@infoalerts.online">support@infoalerts.online</a>.</p>
-  <p>Read our <a href="privacy.html">privacy policy</a> and
-     <a href="terms.html">terms of use</a>.</p>
-</div>
+  <main>
+    <section class="hero">
+      <p class="eyebrow">Native on Apple TV, iPhone, iPad, and Mac</p>
+      <h1>SuperPlayer</h1>
+      <p class="hero-copy">Bring your own Xtream Codes, M3U playlist, or Stalker portal. Watch live channels with an interface designed for Apple devices and the Siri Remote.</p>
+      <div class="hero-actions">
+        <a class="button primary" href="https://apps.apple.com/app/id6786057037">View on the App Store</a>
+        <a class="button secondary" href="#guides">Set up a provider</a>
+      </div>
+      <p class="fine-print">SuperPlayer is a player. It does not provide channels, playlists, or subscriptions.</p>
+      <figure class="product-shot"><img src="assets/apple-tv.png" alt="SuperPlayer live channel guide running on Apple TV"></figure>
+    </section>
 
-    </main>
-    <footer>
-      <span>© 2026 Alberto Montagnese</span>
-      <span><a href="mailto:support@infoalerts.online">contact</a></span>
-    </footer>
-  </div>
+    <section class="section" id="formats">
+      <div class="section-heading"><p class="eyebrow">One player, your provider</p><h2>Connect the way your service works</h2></div>
+      <div class="feature-grid">
+        <article class="feature xtream"><span class="feature-mark">X</span><h3>Xtream Codes</h3><p>Sign in with the server URL, username, and password supplied by your provider.</p><a href="xtream-codes-setup.html">Xtream setup guide</a></article>
+        <article class="feature stalker"><span class="feature-mark">S</span><h3>Stalker / MAC</h3><p>Connect a Stalker or Ministra portal using its URL and your authorized MAC address.</p><a href="stalker-mac-setup.html">Stalker setup guide</a></article>
+        <article class="feature m3u"><span class="feature-mark">M</span><h3>M3U playlists</h3><p>Add a remote M3U URL and keep the channel list available across your Apple devices.</p><a href="m3u-playlist-setup.html">M3U setup guide</a></article>
+      </div>
+    </section>
+
+    <section class="device-band">
+      <div><p class="eyebrow">Made for the living room</p><h2>Built for Apple TV</h2><p>Browse groups, search channels, and move through your live guide with native focus behavior. Family Sharing lets eligible purchases be shared with your Apple family.</p></div>
+      <img src="assets/feature-graphic.png" alt="SuperPlayer supports M3U, Stalker, STB/MAC, and bulk testing">
+    </section>
+
+    <section class="section" id="guides">
+      <div class="section-heading"><p class="eyebrow">Get connected</p><h2>Provider setup guides</h2><p>Use the credentials your provider gave you. These guides explain each supported connection type and the most common errors.</p></div>
+      <div class="guide-list">
+        <a href="stalker-mac-setup.html"><strong>Stalker portal and MAC address</strong><span>Portal URL, authorization, and troubleshooting</span></a>
+        <a href="xtream-codes-setup.html"><strong>Xtream Codes API</strong><span>Server URL, username, and password</span></a>
+        <a href="m3u-playlist-setup.html"><strong>M3U playlist URL</strong><span>Remote playlist format and refresh checks</span></a>
+      </div>
+    </section>
+
+    <section class="support-band">
+      <div><p class="eyebrow">A setup is not working?</p><h2>Send us the useful details</h2><p>Include the connection type, device, app version, exact error, and whether the same credentials work elsewhere. Never email your password.</p></div>
+      <a class="button secondary" href="mailto:support@infoalerts.online?subject=SuperPlayer%20support">Email support</a>
+    </section>
+  </main>
+
+  <footer>
+    <div><strong>SuperPlayer</strong><span>A player for user-provided, authorized media sources.</span></div>
+    <nav aria-label="Legal navigation"><a href="support.html">Support</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></nav>
+    <small>&copy; 2026 Alberto Montagnese</small>
+  </footer>
 </body>
 </html>
