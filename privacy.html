@@ -29,7 +29,7 @@ or media content.</p>
 <p>You may enter a portal URL, username, password, MAC address, nickname, and device ID so
 the app can connect to your IPTV provider. This information is stored locally on
 your device and is used to connect to the provider you choose. Portal URLs and
-MAC addresses may also be included in diagnostic analytics as described below.
+MAC addresses remain on your device; they are not sent to our analytics service.
 In the native apps, saved passwords are not sent to us. In the web app, guests
 keep provider profiles in their browser. If you create a web account, your email
 address and encrypted provider library are stored in Google Cloud so the library
@@ -55,14 +55,11 @@ filter changes, feature limit prompts, upgrade button taps, service-inquiry emai
 button taps, purchase or restore outcomes, and search query length buckets. We
 record that the button was tapped, but not the contents of your email.</p>
 
-<p>Analytics events may include the provider or playlist URL and MAC address you entered so we
-can understand provider compatibility and diagnose failed portal or playlist
-loads. Before sending this value, the app redacts URL username/password fields
-and common password query parameters such as password, pass, pwd, and passwd.
-MAC addresses may identify a device or provider account and are used only for
-connection diagnostics; we do not use them to access or watch provider content.
-Analytics events do not include your saved portal password, channel names,
-search text, viewing history, or the media you watch.</p>
+<p>For provider compatibility and connection diagnostics, analytics may include
+non-identifying structural details such as provider type, URL scheme, URL length
+bucket, endpoint path depth, connection outcome, response category, and timing.
+Analytics events do not include your portal URL, MAC address, saved portal
+password, channel names, search text, viewing history, or the media you watch.</p>
 
 <h2>Diagnostics</h2>
 <p>Apple may provide us with aggregate crash and diagnostic reports if you have
