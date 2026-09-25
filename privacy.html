@@ -18,7 +18,7 @@
     </header>
     <main>
 <h1 class="title">Privacy Policy</h1>
-<p class="lede">Effective September 14, 2026</p>
+<p class="lede">Effective September 25, 2026</p>
 
 <p>SuperPlayer IPTV Stalker STB ("the app") is built and operated by Alberto
 Montagnese. The app is a player for connecting to your own IPTV/Stalker portal
@@ -55,13 +55,18 @@ and device diagnostics, and broad event names such as app open, portal
 connection success or failure, playback start or error, favorite changes, region
 filter changes, feature limit prompts, upgrade button taps, service-inquiry email
 button taps, purchase or restore outcomes, and search query length buckets. We
-record that the button was tapped, but not the contents of your email.</p>
+record that the button was tapped, but not the contents of your email. When
+playback starts on iOS, tvOS, or Android, analytics also include the channel
+name, provider channel ID, channel region, and provider type.</p>
 
 <p>For provider compatibility and connection diagnostics, analytics may include
 non-identifying structural details such as provider type, URL scheme, URL length
 bucket, endpoint path depth, connection outcome, response category, and timing.
-Analytics events do not include your portal URL, MAC address, saved portal
-password, channel names, search text, viewing history, or the media you watch.</p>
+Channel playback events create a limited viewing history linked to the random
+app-install identifier so we can understand which channels are used on iOS,
+tvOS, and Android. Analytics events do not include your portal URL, MAC address,
+saved portal password, search text, stream URL, or the audio or video content
+you watch.</p>
 
 <h2>Diagnostics</h2>
 <p>Apple may provide us with aggregate crash and diagnostic reports if you have
@@ -89,7 +94,7 @@ Google Cloud on our behalf.</p>
   <li>You can remove stored portal profiles by deleting them in the app.</li>
   <li>You can delete a web account and its synced library from the account menu.</li>
   <li>You can delete the app to remove local app data from your device.</li>
-  <li>You can request deletion of analytics associated with your in-app Support ID by contacting us.</li>
+  <li id="choices">You can request deletion of analytics and channel viewing history associated with your in-app Support ID by emailing <a href="mailto:support@infoalerts.online">support@infoalerts.online</a>. We delete matching active analytics records within 30 days unless retention is required by law.</li>
   <li>You can control Apple diagnostics sharing in your device privacy settings.</li>
 </ul>
 
