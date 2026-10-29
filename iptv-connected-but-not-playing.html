@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>IPTV Connected but Not Playing? Apple &amp; Android Checklist | SuperPlayer</title>
+  <meta name="description" content="Your IPTV portal connects or your M3U list loads, but video will not play? Check channels, account limits, network, and player compatibility on Apple and Android.">
+  <link rel="canonical" href="https://albertomontagnese.github.io/stalker-player-plus-site/iptv-connected-but-not-playing.html">
+  <link rel="icon" href="assets/app-icon.png">
+  <link rel="stylesheet" href="style.css">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Connected, but no video? Start here.">
+  <meta property="og:description" content="A practical IPTV playback checklist for Android, iPhone, iPad, Apple TV, and Mac. From SuperPlayer.">
+  <meta property="og:url" content="https://albertomontagnese.github.io/stalker-player-plus-site/iptv-connected-but-not-playing.html">
+  <meta property="og:image" content="https://albertomontagnese.github.io/stalker-player-plus-site/assets/feature-graphic.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"TechArticle","headline":"IPTV connected but not playing: Apple and Android checklist","description":"Troubleshoot a loaded channel list with no video, one failing channel, buffering, and playback errors.","datePublished":"2026-09-30","dateModified":"2026-09-30","author":{"@type":"Person","name":"Alberto Montagnese"},"publisher":{"@type":"Organization","name":"SuperPlayer"},"mainEntityOfPage":"https://albertomontagnese.github.io/stalker-player-plus-site/iptv-connected-but-not-playing.html","inLanguage":"en"}
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to checklist</a>
+  <header class="site-header">
+    <a class="brand" href="index.html"><img src="assets/app-icon.png" alt="" width="40" height="40"><span>SuperPlayer</span></a>
+    <nav aria-label="Primary navigation"><a href="index.html#guides">Setup guides</a><a href="#download">Get the app</a><a href="support.html">Support</a></nav>
+  </header>
+  <main class="article-shell playback-guide" id="main">
+    <p class="eyebrow">Apple + Android · Playback help</p>
+    <h1>Connected.<br>Still no video?</h1>
+    <p class="lede">Your portal signs in or your playlist loads, but the channel stays black. Start with these checks on Android, iPhone, iPad, Apple TV, or Mac.</p>
+    <p class="fine-print">By Alberto Montagnese, SuperPlayer developer · Updated September 30, 2026</p>
+
+    <div class="notice"><strong>A channel list is only the first step.</strong> A successful login does not confirm that every stream is available or that the player can open it. The checks below help narrow down where playback stops.</div>
+
+    <nav class="symptom-picker" aria-label="Choose your playback problem">
+      <p class="eyebrow">What do you see?</p>
+      <a href="#one-channel"><strong>One channel fails</strong><span>Other channels play normally <span aria-hidden="true">↗</span></span></a>
+      <a href="#all-channels"><strong>No channels play</strong><span>The list loads, but every stream fails <span aria-hidden="true">↗</span></span></a>
+      <a href="#buffering"><strong>Playback starts, then stops</strong><span>Buffering, freezing, or interruptions <span aria-hidden="true">↗</span></span></a>
+      <a href="#login"><strong>I cannot connect at all</strong><span>Check the provider setup first <span aria-hidden="true">↗</span></span></a>
+    </nav>
+
+    <section id="one-channel">
+      <p class="step-label">01 / One channel fails</p>
+      <h2>Try another channel before changing your setup.</h2>
+      <p>Open two or three other channels from the same provider. If they play, your connection is working for at least some streams. The failing channel may be offline, restricted, or use a format that behaves differently in your player.</p>
+      <ol><li>Note the affected channel and the time of the failure.</li><li>If your app offers a channel-list refresh, refresh once and retry.</li><li>Check that same channel with your provider’s recommended player, using your own authorized account. Close the first player before testing another.</li></ol>
+      <p><strong>Next step:</strong> If it fails there too, ask your provider about that channel. If it plays there but fails in SuperPlayer, report the difference to SuperPlayer support. That comparison is useful evidence, not proof of one particular cause.</p>
+    </section>
+
+    <section id="all-channels">
+      <p class="step-label">02 / No channels play</p>
+      <h2>Check the account, then compare playback.</h2>
+      <ol>
+        <li><strong>Confirm that the account is active.</strong> Ask your provider whether playback access is enabled. Loading a saved or cached list does not confirm current access.</li>
+        <li><strong>Close other viewing sessions.</strong> Your provider may limit simultaneous streams or registered devices. Test one device at a time.</li>
+        <li><strong>Recheck the connection details.</strong> Use the exact URL, port, and credentials your provider supplied. For Stalker/MAC access, ask whether your device or MAC address needs authorization.</li>
+        <li><strong>Compare on the same device and network.</strong> Try your provider’s recommended player with the same authorized account. If only SuperPlayer fails, contact us with the result.</li>
+        <li><strong>Compare networks if practical.</strong> A short test on another trusted connection can help isolate network-specific behavior. Mobile data charges may apply. A different result does not by itself identify who is blocking or failing.</li>
+      </ol>
+      <details><summary>What do 401, 403, and timeout errors tell me?</summary><p>A 401 or 403 indicates that the request was not accepted for access. Credentials, device restrictions, expired links, or the way a player sends the request can matter; the code alone cannot distinguish them. A timeout means a request did not finish in time. Save the exact error and describe which step failed.</p></details>
+      <div class="notice warning"><strong>Do not buy an upgrade to repair a provider account.</strong> SuperPlayer Pro cannot renew an expired service, authorize a restricted device, or bring an offline channel back online.</div>
+    </section>
+
+    <section id="buffering">
+      <p class="step-label">03 / Playback starts, then stops</p>
+      <h2>Look for a repeatable pattern.</h2>
+      <ul><li><strong>One channel or every channel?</strong> Try another stream and note whether the interruption repeats.</li><li><strong>Busy network?</strong> Pause large downloads and compare closer to your router, or over Ethernet if your device supports it.</li><li><strong>More than one player open?</strong> Close other sessions and retry within your provider’s connection allowance.</li><li><strong>Same point every time?</strong> Note how long playback lasts. A repeatable cutoff is useful information for the provider and app support.</li></ul>
+      <p>A speed-test result alone cannot establish that the provider’s stream is healthy. Record what changed between your tests, and avoid resetting everything at once.</p>
+    </section>
+
+    <section id="login">
+      <p class="step-label">04 / Cannot connect</p>
+      <h2>Start with the right connection type.</h2>
+      <p>These existing guides walk through SuperPlayer’s Apple setup screens. The connection details are also useful on Android, where screen labels and available options can differ by version.</p>
+      <div class="guide-list">
+        <a href="stalker-mac-setup.html"><strong>Stalker / MAC</strong><span>Portal URL and authorized MAC address</span></a>
+        <a href="xtream-codes-setup.html"><strong>Xtream Codes</strong><span>Server URL, username, and password</span></a>
+        <a href="m3u-playlist-setup.html"><strong>M3U playlist</strong><span>The playlist URL from your provider</span></a>
+      </div>
+    </section>
+
+    <section id="support-details">
+      <h2>Still stuck? Send the useful details.</h2>
+      <p>Use this checklist for a support request. Remove credentials and private URLs from screenshots or copied errors.</p>
+      <ul><li>Device, operating system, and SuperPlayer version.</li><li>Connection type: Stalker/MAC, Xtream, or M3U.</li><li>The exact error and approximate time it appeared.</li><li>Whether one channel or all channels fail.</li><li>Whether your provider’s recommended player works on the same device and network.</li></ul>
+      <p><strong>Keep passwords, full playlist URLs, tokens, and MAC addresses private.</strong> We do not need them for this initial report.</p>
+      <a class="button secondary" href="mailto:support@infoalerts.online?subject=SuperPlayer%20playback%20help">Contact SuperPlayer support</a>
+    </section>
+
+    <section class="download-panel" id="download" aria-labelledby="download-title">
+      <p class="eyebrow">Your sources. Your device.</p>
+      <h2 id="download-title">Meet SuperPlayer.</h2>
+      <p>A player for your own authorized playlists and provider accounts. Choose the store for your device.</p>
+      <div class="store-grid">
+        <div><a class="button primary" href="https://oura-beige.vercel.app/go/superplayer/seo_playback_apple_oct26">View on the App Store</a><p class="fine-print">iPhone · iPad · Apple TV · Mac</p></div>
+        <div><a class="button secondary" href="https://oura-beige.vercel.app/go/superplayer/seo_playback_android_oct26">Get it on Google Play</a><p class="fine-print">Android</p></div>
+      </div>
+      <p class="fine-print">No channels, playlists, or provider subscriptions included. Compatibility depends on your source and device. See your store listing for device requirements and in-app purchases.</p>
+    </section>
+    <nav class="article-nav" aria-label="More help"><a href="index.html">SuperPlayer home</a><a href="support.html">Support</a><a href="privacy.html">Privacy</a></nav>
+  </main>
+</body>
+</html>
